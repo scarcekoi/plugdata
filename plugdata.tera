@@ -9,7 +9,7 @@ whiskers:
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
 <Theme
-  theme="catppuccin-{{flavor.identifier}}"
+  theme="catppuccin-{{flavor.identifier}}-{{accent}}"
   toolbar_background="{{crust.hex}}"
   toolbar_text="{{text.hex}}"
   toolbar_active="{{flavor.colors[accent].hex}}"

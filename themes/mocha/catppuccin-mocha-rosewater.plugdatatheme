@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Theme
-  theme="catppuccin-mocha"
+  theme="catppuccin-mocha-rosewater"
   toolbar_background="ff11111b"
   toolbar_text="ffcdd6f4"
   toolbar_active="fff5e0dc"
