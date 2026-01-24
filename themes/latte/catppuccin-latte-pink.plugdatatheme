@@ -45,12 +45,4 @@
   iolet_area_colour="ffeff1f5"
   iolet_outline_colour="ffacb0be"
   comment_text_colour="ff4c4f69"
-  straight_connections="0"
-  connection_style="1"
-  connection_look="0"
-  square_iolets="0"
-  square_object_corners="0"
-  iolet_spacing_edge="0"
-  object_flag_outlined="0"
-  highlight_syntax="0"
 />
