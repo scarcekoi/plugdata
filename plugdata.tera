@@ -3,7 +3,8 @@ whiskers:
   version: "^2.5.1"
   matrix:
     - flavor
-  filename: "themes/catppuccin-{{flavor.identifier}}.plugdatatheme"
+    - accent
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.plugdatatheme"
   hex_format: "{{a}}{{r}}{{g}}{{b}}"
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -11,7 +12,7 @@ whiskers:
   theme="catppuccin-{{flavor.identifier}}"
   toolbar_background="{{crust.hex}}"
   toolbar_text="{{text.hex}}"
-  toolbar_active="{{sapphire.hex}}"
+  toolbar_active="{{flavor.colors[accent].hex}}"
   toolbar_hover="{{surface0.hex}}"
   tabbar_background="{{crust.hex}}"
   tab_text="{{text.hex}}"
@@ -23,11 +24,11 @@ whiskers:
   presentation_background="{{surface1.hex}}"
   default_object_background="{{crust.hex}}"
   object_outline_colour="{{surface1.hex}}"
-  selected_object_outline_colour="{{sapphire.hex}}"
+  selected_object_outline_colour="{{flavor.colors[accent].hex}}"
   gui_internal_outline_colour="{{surface2.hex}}"
   toolbar_outline_colour="{{base.hex}}"
   outline_colour="{{surface0.hex}}"
-  data_colour="{{sapphire.hex}}"
+  data_colour="{{flavor.colors[accent].hex}}"
   connection_colour="{{text.hex}}"
   signal_colour="{{peach.hex}}"
   gem_colour="{{green.hex}}"
@@ -35,7 +36,7 @@ whiskers:
   sidebar_colour="{{crust.hex}}"
   sidebar_text="{{text.hex}}"
   sidebar_background_active="{{surface0.hex}}"
-  levelmeter_active="{{sapphire.hex}}"
+  levelmeter_active="{{flavor.colors[accent].hex}}"
   levelmeter_background="{{surface1.hex}}"
   levelmeter_thumb="{{text.hex}}"
   panel_background="{{base.hex}}"
@@ -47,8 +48,8 @@ whiskers:
   popup_text="{{text.hex}}"
   scrollbar_thumb="{{overlay0.hex}}"
   graph_area="{{red.hex}}"
-  grid_colour="{{sapphire.hex}}"
-  caret_colour="{{sapphire.hex}}"
+  grid_colour="{{flavor.colors[accent].hex}}"
+  caret_colour="{{flavor.colors[accent].hex}}"
   text_object_background="{{base.hex}}"
   iolet_area_colour="{{base.hex}}"
   iolet_outline_colour="{{surface2.hex}}"
