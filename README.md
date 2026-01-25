@@ -39,6 +39,7 @@
 1. Download the flavor(s) of your choice from [themes](themes).
 2. Open the app and go to **Settings** > **Themes** > **Import theme...**.
 3. Select the downloaded flavor file(s).
+4. Enjoy!
 
 ## 💝 Thanks to
 
